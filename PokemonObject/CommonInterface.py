@@ -21,3 +21,12 @@ class BaseType(Enum):
 	DARK = 16
 	STEEL = 17
 	FAIRY = 18
+
+class BaseAttribute(Enum):
+	ATTACK = 0
+	DEFENSE = 1
+	SPECIAL_ATTACK = 2
+	SPECIAL_DEFENSE = 3
+	SPEED = 4
+	HEALTH = 5
+
