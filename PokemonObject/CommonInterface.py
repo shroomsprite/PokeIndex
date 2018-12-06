@@ -22,7 +22,8 @@ class BaseType(Enum):
 	STEEL = 17
 	FAIRY = 18
 
-class BaseAttribute(Enum):
+# this is for skill object, e.g. attack decrease by 1 level
+class IndividualValue(Enum):
 	ATTACK = 0
 	DEFENSE = 1
 	SPECIAL_ATTACK = 2
@@ -30,3 +31,12 @@ class BaseAttribute(Enum):
 	SPEED = 4
 	HEALTH = 5
 
+# this is for pokemon object
+class IndividualValues():
+	def __init__(self, phyAtt=0, speAtt=0, phyDef=0, speDef=0, spd=0, hp=0):
+		self.physicalAttack = phyAtt
+		self.physicalDefense = phyDef
+		self.specialAttack = speAtt
+		self.specialDefense = speDef
+		self.healthPoint = hp
+		self.speed = spd
