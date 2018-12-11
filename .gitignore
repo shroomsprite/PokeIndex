@@ -1,3 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.pyc
+
+#everything in PokeDevEnvironment but requirements.txt
+PokeDevEnvironment/*
+!requirements.txt

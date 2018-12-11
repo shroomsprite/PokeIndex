@@ -21,8 +21,6 @@ class Pokemon():
 		self.SkillList = skillList
 		self.IVs = ivs
 
-
-
 #test
 Gardevior = Pokemon()
 Gardevior.index= 111
