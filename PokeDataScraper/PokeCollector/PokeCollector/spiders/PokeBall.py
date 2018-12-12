@@ -1,12 +1,13 @@
 import scrapy
 
-
+# That's the Web crawler for the English version
+# Implement the English ver first so that it can avoid some encoding problem
 class PokeBall(scrapy.Spider):
 	name = "PokeBall"
 
 	def start_requests(self):
 		urls = [
-		'https://wiki.52poke.com/wiki/%E5%A6%99%E8%9B%99%E7%A7%8D%E5%AD%90',
+		'https://pokemondb.net/pokedex/bulbasaur',
 		]
 		
 		for url in urls:
