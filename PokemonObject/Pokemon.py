@@ -26,5 +26,13 @@ Gardevior = Pokemon()
 Gardevior.index= 111
 Gardevior.pokemonName = "Gardevior"
 Gardevior.pokemonType = BaseType.UNDEFINED
+Pikachu = Pokemon("Pikachu", 25, BaseType.ELECTRIC, ["Static"], IndividualValues())
 
+print("-"*40)
+print(Pikachu.pokemonName)
+print(Pikachu.index)
+print(Pikachu.pokemonType)
+print(Pikachu.SkillList)
+print(Pikachu.IVs.physicalAttack)
+print("-"*40)
 print(Gardevior.pokemonName)
