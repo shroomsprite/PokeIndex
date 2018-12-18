@@ -14,7 +14,7 @@ class Pokemon():
 		self.SkillList = []
 		self.IVs = IndividualValues()
 
-	def __init__(self, name =  "", index = 0, typ=BaseType.UNDEFINED, skillList=[], ivs=IndividualValues()):
+	def __init__(self, name =  "", index = 0, typ=BaseType.UNDEFINED, skillList=[], ivs=IndividualVal:
 		self.pokemonName  = name		
 		self.index = index
 		self.pokemonType = typ
